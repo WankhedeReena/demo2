@@ -10,7 +10,7 @@ public class FirstMavenProgram {
 		System.setProperty("webdriver.chrome.driver","D:\\Selenium\\exes\\chromedriver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("www.google.com");
-		
+		System.out.println("hello world");
 		
 		
 	}
